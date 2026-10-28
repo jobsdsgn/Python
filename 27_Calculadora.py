@@ -14,25 +14,25 @@ potencia = (num1 ** num2)
 if(escolha == '+'):
     print("A soma de %.1f com %.1f e igual a %.1f " % (num1, num2, soma))
 elif(escolha == '-'):
-    print("A subtraçao de %.1f com %.1f e igual a %.1f " % (num1, num2, subtracao))
+    print("A subtração de %.1f com %.1f e igual a %.1f " % (num1, num2, subtracao))
 elif(escolha == '*'):
-    print("A multiplicaçao entre %.1f e %.1f e igual a %.1f " % (num1, num2, multiplicacao))
+    print("A multiplicação entre %.1f e %.1f e igual a %.1f " % (num1, num2, multiplicacao))
 elif(escolha == '/'):
-    print("A divisao entre %.1f e %.1f e igual a %.1f " % (num1, num2, divisao))
+    print("A divisão entre %.1f e %.1f e igual a %.1f " % (num1, num2, divisao))
 elif(escolha == '%'):
-    print("O resto da divisao de %.1f e %.1f e igual a %.1f" % (num1, num2, rest_div))
+    print("O resto da divisão de %.1f e %.1f e igual a %.1f" % (num1, num2, rest_div))
 elif(escolha == '**'):
-    print("A potencia entre %.1f e %.1f e igual a %.1f" % (num1, num2, potencia))
+    print("A potência entre %.1f e %.1f e igual a %.1f" % (num1, num2, potencia))
 elif(escolha == "help"):
     print()
-    print("Sinais das operaçoes")
+    print("Sinais das operações")
     print("Para somar use: '+'")
     print("Para subtrair use: '-'")
     print("Para multiplicar use: '*'")
     print("Para dividir use: '/'")
-    print("Para obter o resto da divisao use: '%'")
-    print("Para ter a potencia use: '**'")
-    print("Para todas as operaçoes suportadas use: 'todas'")
+    print("Para obter o resto da divisão use: '%'")
+    print("Para ter a potência use: '**'")
+    print("Para todas as operações suportadas use: 'todas'")
     print()
 elif( escolha == "todas"):
     print("A soma de %.1f com %.1f e igual a %.1f " % (num1, num2, soma))
